@@ -1,21 +1,10 @@
-# Python program to find the largest number among the three input numbers
-
-# change the values of num1, num2 and num3
-# for a different result
-num1 = 10
-num2 = 14
-num3 = 12
-
-# uncomment following lines to take three numbers from user
-#num1 = float(input("Enter first number: "))
-#num2 = float(input("Enter second number: "))
-#num3 = float(input("Enter third number: "))
-
-if (num1 >= num2) and (num1 >= num3):
-   largest = num1
-elif (num2 >= num1) and (num2 >= num3):
-   largest = num2
+#3 program to print maximum of three numbers
+a=int(input("Enter Mark1:"))
+b=int(input("Enter Mark2:"))
+c=int(input("Enter Mark3:"))
+if(a>b and a>c):
+	print("Mark1 is the maximum number")
+elif(b>a and b>c):
+	print("Mark2 is the maximum number")
 else:
-   largest = num3
-
-print("The largest number is", largest)
+	print("Mark3 is the maximum number")
